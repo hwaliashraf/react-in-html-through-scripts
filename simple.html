@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    section {
+      padding: 2em;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+
+<link rel="stylesheet" href="./build/static/css/main.f3584811.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Landing Page</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Welcome to Our Landing Page!</h2>
+    <p>This is a simple landing page built with HTML, CSS, and JS.</p>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet justo vitae mauris placerat euismod
+      vel a justo.</p>
+  </section>
+
+  <div id="root"></div>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Email: info@example.com</p>
+    <p>Phone: (123) 456-7890</p>
+  </section>
+
+  <footer>
+    &copy; 2023 Landing Page
+  </footer>
+
+  <!-- Include React library -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" defer></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" defer></script>
+
+  <script src="./build/static/js/main.cac6e503.js" defer></script>
+
+  <script>
+    // Ensure proper initialization
+    setTimeout(() => {
+      const rootElement = document.getElementById('root');
+      const root = ReactDOM.createRoot(rootElement);
+  
+      root.render(
+        React.createElement(
+          React.StrictMode,
+          null,
+          React.createElement(App)
+        )
+      );
+    }, 1000);
+  </script>
+</body>
+
+</html>

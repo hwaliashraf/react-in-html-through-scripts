@@ -1,0 +1,54 @@
+.test-container {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0;
+}
+
+.test-header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.test-nav {
+  background-color: #2196F3;
+  padding: 1em;
+  text-align: center;
+}
+
+.test-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.test-section {
+  padding: 2em;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.cta-button {
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #d32f2f;
+}
+
+.test-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

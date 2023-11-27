@@ -1,0 +1,42 @@
+.another-test-container {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.another-test-header {
+  background-color: #795548;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.another-test-section {
+  padding: 2em;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.another-test-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
